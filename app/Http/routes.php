@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/homeworks', function(){
+	return view('homeworks/homeworks');
+});
+
+
 /*Route::get('/bgsapp', function(){
 	return view('home');
 });*/

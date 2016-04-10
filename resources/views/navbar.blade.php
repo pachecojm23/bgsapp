@@ -4,7 +4,8 @@
     <nav id="nav">
         <ul>
             <li>{!! HTML::link('/', 'Home')!!}</li>
-			<li>
+            <li>{!! HTML::link('/homeworks', 'Tareas')!!}</li>
+			<!--li>
 				<a href="#">Layouts</a>
 		        <ul>
 					<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -22,7 +23,7 @@
 				</ul>
 			</li>
 			<li><a href="elements.html">Elements</a></li>
-			<li><a href="#" class="button special">Sign Up</a></li>
+			<li><a href="#" class="button special">Sign Up</a></li-->
 		</ul>
 	</nav>
 </header>
