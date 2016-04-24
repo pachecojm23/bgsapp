@@ -4,11 +4,12 @@
     <nav id="nav">
         <ul>
             <li>{!! HTML::link('/', 'Home')!!}</li>
-            <li>{!! HTML::link('/homeworks', 'Tareas')!!}</li>
-			<!--li>
-				<a href="#">Layouts</a>
+            
+			<li>
+				<a href="#">Actividades Académicas</a>
 		        <ul>
-					<li><a href="left-sidebar.html">Left Sidebar</a></li>
+                    <li>{!! HTML::link('/homeworks', 'Tareas')!!}</li>
+					<li>{!! HTML::link('https://www.engrade.com/user/login.php', 'Engrade', array('target'=>'_blank'))!!}</li>
 					<li><a href="right-sidebar.html">Right Sidebar</a></li>
 				    <li><a href="no-sidebar.html">No Sidebar</a></li>
 					<li>
@@ -23,7 +24,7 @@
 				</ul>
 			</li>
 			<li><a href="elements.html">Elements</a></li>
-			<li><a href="#" class="button special">Sign Up</a></li-->
+			<li><a href="#" class="button special">Sign Up</a></li>
 		</ul>
 	</nav>
 </header>
