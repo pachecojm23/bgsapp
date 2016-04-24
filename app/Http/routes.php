@@ -19,6 +19,10 @@ Route::get('/homeworks', function(){
 	return view('homeworks/homeworks');
 });
 
+Route::get('/schedules', function(){
+   return view('institucional/horarios'); 
+});
+
 
 /*Route::get('/bgsapp', function(){
 	return view('home');
