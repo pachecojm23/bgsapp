@@ -9,5 +9,5 @@
 		</header>
 		<span class="image"><img src="images/pic01.fw.png" alt="" /></span>
 	</div>
-	<!--a href="#one" class="goto-next scrolly">Next</a-->
+	<a href="#one" class="goto-next scrolly">Next</a>
 </section>

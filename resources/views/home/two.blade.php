@@ -1,6 +1,6 @@
 <!-- Two -->
 <section id="two" class="spotlight style2 right">
-    <span class="image fit main"><img src="images/pic003.jpg" alt="" /></span>
+    <span class="image fit main"><img src="images/mision.jpg" alt="" /></span>
 	<div class="content">
 		<header>
 			<h2>NUESTRA MISIÓN</h2>

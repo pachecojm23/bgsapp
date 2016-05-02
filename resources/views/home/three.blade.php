@@ -1,6 +1,6 @@
 <!-- Three -->
 <section id="three" class="spotlight style3 left">
-	<span class="image fit main bottom"><img src="images/pic004.jpg" alt="" /></span>
+	<span class="image fit main bottom"><img src="images/vision.jpg" alt="" /></span>
 	<div class="content">
 		<header>
 			<h2>Nuestra Visión</h2>

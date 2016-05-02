@@ -18,21 +18,51 @@
         
         <link href="favicon.png" sizes="16x16" type="image/png" rel="icon">
 	</head>
-        
-
+    
 	<body class="landing">
 
         <div id="page-wrapper">
 
         @include('navbar')
-        
-        @include('home/banner')
-        
-		@include('home/one')
-        @include('home/two')
-		@include('home/three')
-		@include('home/four')
-        
+
+        <!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<header class="major">
+			<h2>STAFF ELEMENTARY</h2>
+		</header>
+
+		<!-- Content -->
+		<section id="content">
+            <div class="table-wrapper">
+			    
+                <table>
+					<thead>
+						<tr>
+							<CENTER><th align="center">Grade</th>
+							<th align="center">Teacher Staff</th></center>
+						</tr>
+					</thead>
+					<tbody>
+                        <tr>
+							<td align="center">6th Grade</td>
+							<td align="center">{!!HTML::link('/docs/Staff/9. Sexto Grado.pdf','View Teachers',array('target' =>'_blank'))!!}.</td>
+						</tr>
+                        <tr>
+							<td align="center">7th Grade</td>
+							<td align="center">{!!HTML::link('/docs/Staff/10. Septimo Grado.pdf','View Teachers',array('target' =>'_blank'))!!}</td>
+						</tr>
+                        <tr>
+							<td align="center">8th Grade</td>
+							<td align="center">{!!HTML::link('/docs/Staff/11. Octavo Grado.pdf','View Teachers',array('target' =>'_blank'))!!}</td>
+						</tr>		
+					</tbody>
+				</table>
+			</div>
+	    </section>
+	</div>
+</div>
+
         @include('footer')
         
         </div>

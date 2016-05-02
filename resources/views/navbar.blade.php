@@ -7,20 +7,21 @@
  			<li>
 				<a href="#">Staff</a>
 		        <ul>
-                    <li>{!! HTML::link('#', 'Pre-School')!!}</li>
-					<li>{!! HTML::link('#', 'Elementary School')!!}</li>
-					<li>{!! HTML::link('#', 'Junior High School')!!}</li>
-					<li>{!! HTML::link('#', 'Personal Administrative')!!}</li>
+                    <li>{!! HTML::link('/preschool', 'Pre-School')!!}</li>
+					<li>{!! HTML::link('/elementary', 'Elementary School')!!}</li>
+					<li>{!! HTML::link('/juniorhigh', 'Junior High School')!!}</li>
+					<li>{!! HTML::link('/docs/Staff/Personal Administrativo.pdf', 'Personal Administrative', array('target'=> '_blank'))!!}</li>
 				</ul>
 			</li>
 			
 			<li>
 				<a href="#">Quienes Somos</a>
 		        <ul>
-                    <li>{!! HTML::link('#', 'Misión')!!}</li>
-					<li>{!! HTML::link('#', 'Visión')!!}</li>
+                    <li>{!! HTML::link('#two', 'Misión')!!}</li>
+					<li>{!! HTML::link('#three', 'Visión')!!}</li>
+					<li>{!! HTML::link('#one', 'Filosofía')!!}</li>
 					<li>{!! HTML::link('#', 'Nuestros Símbolos')!!}</li>
-					<li>{!! HTML::link('#', 'Principios y Valores')!!}</li>
+					<li>{!! HTML::link('#Four', 'Principios y Valores')!!}</li>
 					<li>{!! HTML::link('#', 'Nuestros Alumnos')!!}</li>
 				</ul>
 			</li>
