@@ -4,9 +4,29 @@
     <nav id="nav">
         <ul>
             <li>{!! HTML::link('/', 'Home')!!}</li>
-            
+ 			<li>
+				<a href="#">Staff</a>
+		        <ul>
+                    <li>{!! HTML::link('#', 'Pre-School')!!}</li>
+					<li>{!! HTML::link('#', 'Elementary School')!!}</li>
+					<li>{!! HTML::link('#', 'Junior High School')!!}</li>
+					<li>{!! HTML::link('#', 'Personal Administrative')!!}</li>
+				</ul>
+			</li>
+			
 			<li>
-				<a href="#">Actividades Académicas</a>
+				<a href="#">Quienes Somos</a>
+		        <ul>
+                    <li>{!! HTML::link('#', 'Misión')!!}</li>
+					<li>{!! HTML::link('#', 'Visión')!!}</li>
+					<li>{!! HTML::link('#', 'Nuestros Símbolos')!!}</li>
+					<li>{!! HTML::link('#', 'Principios y Valores')!!}</li>
+					<li>{!! HTML::link('#', 'Nuestros Alumnos')!!}</li>
+				</ul>
+			</li>
+			           
+			<li>
+				<a href="#">Gestión Aula</a>
 		        <ul>
                     <li>{!! HTML::link('/homeworks', 'Tareas')!!}</li>
 					<li>{!! HTML::link('https://www.engrade.com/user/login.php', 'Engrade', array('target'=>'_blank'))!!}</li>
@@ -27,6 +47,13 @@
                 <a href="#">Institucional</a>
                 <ul>
                     <li>{!! HTML::link('/schedules', 'Horarios 2016')!!}</li>
+					<li>{!! HTML::link('#', 'Manual de Padres')!!}</li>
+					<li>{!! HTML::link('#', 'Prospecto Escolar')!!}</li>
+					<li>{!! HTML::link('#', 'Madres Enlace')!!}</li>
+					<li>{!! HTML::link('#', 'Comité de Apoyo')!!}</li>
+					<li>{!! HTML::link('#', 'Gobierno Estudiantil')!!}</li>
+					<li>{!! HTML::link('#', 'Calendario Escolar')!!}</li>
+					<li>{!! HTML::link('#', 'Pénsum Complementario')!!}</li>
                 </ul>
             </li>
 			<!--li><a href="#" class="button special">Sign Up</a></li-->

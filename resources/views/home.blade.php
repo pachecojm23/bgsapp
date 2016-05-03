@@ -28,10 +28,12 @@
         
         @include('home/banner')
         
-        @include('home/one')
+		{{--
+		@include('home/one')
         @include('home/two')
         @include('home/three')
         @include('home/four')
+		--}}
         
         @include('footer')
         
