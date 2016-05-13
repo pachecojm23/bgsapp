@@ -31,6 +31,8 @@
 		        <ul>
                     <li>{!! HTML::link('/homeworks', 'Tareas')!!}</li>
 					<li>{!! HTML::link('https://www.engrade.com/user/login.php', 'Engrade', array('target'=>'_blank'))!!}</li>
+					<li>{!! HTML::link('http://moodle.aguilasamericanas.net/','Evaluaciones 2016', array('target' => '_blank'))!!}</li>
+					
 					<!--li><a href="right-sidebar.html">Right Sidebar</a></li>
 				    <li><a href="no-sidebar.html">No Sidebar</a></li>
 					<li>
